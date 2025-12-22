@@ -11,4 +11,5 @@ public class Q14{
         System.out.println(paypen);
         System.out.println(actpay);
 
-    }}
+    }
+}

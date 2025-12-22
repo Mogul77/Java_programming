@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Q13{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int root = (int)Math.sqrt(n);
+        int res = root*root;
+        if(res==n)
+            System.out.println("it is perfect square");
+        else 
+            System.out.println("it is not perfect Square");
+
+
+    }
+}
